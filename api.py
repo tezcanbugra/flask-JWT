@@ -27,7 +27,7 @@ def token_required(f):
 
 @app.route('/unprotected')
 def unprotected():
-    return jsonify({'message' : 'Anyone can see this.'})
+    return jsonify({'message' : 'Anyone can see this page.'})
 
 @app.route('/protected')
 @token_required
