@@ -1,5 +1,4 @@
 Flask
 jsonify
-request
 make_response
 pyjwt
